@@ -15,7 +15,6 @@ for i in range(300):
         step += 1
     turtle.forward(i + step)
     turtle.left(70)
-# turtle.forward(i + step + 1)
 
 turtle.hideturtle()
 turtle.down()
