@@ -8,7 +8,7 @@ a = Analysis(
     ['bin/tbog.py'],
     pathex=[],
     binaries=[],
-    datas=['bin', '.'],
+    datas=[('bin', '_')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
